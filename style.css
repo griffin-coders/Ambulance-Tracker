@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    
+}
+
+body {
+    
+    background-color:rgb(255 255 255);
+}
+
+.navbar {
+    height:6rem;
+    background-color:#95b7ff ;   
+    padding: 15px 15px;
+    display: flex;
+    white-space:nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width:100%;
+    margin: 0 auto;
+    border-radius: 50%;
+    display:flex;
+    
+}
+
+.logo img {
+    height:6.5rem;
+    border-radius: 50%;
+    display:inline-block;
+    float:left;
+    margin:3px 5px -48% 5px;
+    
+}
+   
+    
+}
+.icons { 
+   
+    float:right;
+    display: inline-block;
+    justify-content: right;
+    align-items:center;
+    gap:15px;
+    
+    
+}
+
+.icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width:5rem;
+    height: 5rem;
+    background-color: transparent;
+    border: 0.2rem; 
+    font-size: 2rem;
+    border-radius: 50%;
+    text-decoration:none;
+    color:#000000;
+    box-radius:2rem solid #020202;
+}
+.amb {
+   margin-left:9rem;
+    color: red;
+}
+.gps {
+    margin-left: 9rem;
+}
+.tra {
+    margin-left:11rem;
+     
+ }
+
+.menu {  
+    height:5rem;
+    background-color:rgb(255 255 255);
+    justify-content: center;
+}
+    
+.picture {
+    max-height:32rem;
+    width:100%;
+    margin:auto 0;
+    background-repeat:no-repeat;
+    border:1rem;
+    
+}
+.picture img {
+    height:30rem;
+    width:100%;
+    
+}
+
+.login-form {
+     display:grid;
+     place-items:center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+.form-container {
+    margin:0 auto;
+    width: 300px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    background: rgb(0,212,255);
+background: linear-gradient(90deg, rgba(0,212,255,1) 23%, rgb(81, 81, 186) 68%, rgb(67, 60, 197) 100%);
+}
+# username{
+
+}
+#
+#
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #40ff4e;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline;
+    }
+.sign-up-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6aff8d;
+    color: #111111;
+    border: none;
+    border-radius: 10px;
+    cursor: p
+
+}
